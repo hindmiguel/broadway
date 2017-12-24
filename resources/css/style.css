@@ -1,3 +1,51 @@
 body {
   text-align: center;
+  font-family: Helvetica;
+
+}
+
+.main-title {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+
+}
+
+#home {
+  background-image:
+    url("../images/background.png");
+}
+
+.links {
+  font-size: 18px;
+  color: white;
+}
+
+.sub-heading {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+}
+
+.heading-picture {
+  background-image:
+    url("../images/background.png");
+}
+
+#info {
+  background-color: dimgray;
+  color: white;
+  text-align: left;
+}
+
+copyright {
+  font-size: 11px;
 }
