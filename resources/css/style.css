@@ -1,24 +1,33 @@
 body {
   text-align: center;
   font-family: Helvetica;
-
 }
 
 .main-title {
   font-size: 70px;
-  font-weight: bold;
   color: white;
 
 }
 
-#home {
+#home,
+.heading-picture {
   background-image:
     url("../images/background.png");
+}
+
+#home {
+  font-weight: bold;
+}
+
+.heading-picture {
+  color: white;
+  font-weight: bold;
 }
 
 .links {
   font-size: 18px;
   color: white;
+  font-weight: bold;
 }
 
 .sub-heading {
@@ -35,12 +44,7 @@ p {
   font-size: 14px;
 }
 
-.heading-picture {
-  background-image:
-    url("../images/background.png");
-}
-
-#info {
+footer.info {
   background-color: dimgray;
   color: white;
   text-align: left;
